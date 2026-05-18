@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,900;1,900&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Playfair Display", serif;
+
+  --color-ink: #0A0A0B;
+  --color-ink-light: #161618;
+  --color-accent: #3B82F6;
+  --color-accent-dim: rgba(59, 130, 246, 0.1);
+  --color-border: rgba(255, 255, 255, 0.08);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-ink);
+    color: #F8FAFC;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.data-grid-pattern {
+  background-image: 
+    linear-gradient(to right, var(--color-border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-border) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.pixel-perfect-border {
+  box-shadow: 0 0 0 1px var(--color-border);
+}
+
+.glossy-card {
+  background: rgba(22, 22, 24, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border);
+}
