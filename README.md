@@ -1,20 +1,13 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# METIS | Data Engineering & Architecture
 
-# Run and deploy your AI Studio app
+Лендинг-портфолио в сфере Data Engineering.
 
-This contains everything you need to run your app locally.
+## Стек
 
-View your app in AI Studio: https://ai.studio/apps/0d261287-c98c-4fc1-a27a-39bee6e527d2
+React 19, TypeScript, Vite, Tailwind CSS, Framer Motion
 
-## Run Locally
+## Запуск
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+npm run dev
